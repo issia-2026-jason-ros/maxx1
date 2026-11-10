@@ -3,4 +3,4 @@
 
 +!walk
    <- .move(forward);
-      print("Andou").
+      .print("Andou").
