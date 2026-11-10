@@ -1,6 +1,10 @@
 !walk.           //move forward and avoid obstacles
 
 
-+!walk
++!walk : distance(D) & D > 10
    <- .move(forward);
       .print("Andou").
+
++!walk : distance(D) & D <= 10
+   <- .move(stop);
+      .print("Parou").
