@@ -8,3 +8,5 @@
 +!walk : distance(D) & D <= 10
    <- .move(stop);
       .print("Parou").
+
++!walk <- .wait(1000); !walk.
