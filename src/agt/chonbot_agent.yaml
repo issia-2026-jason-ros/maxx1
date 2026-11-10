@@ -9,4 +9,8 @@
       # Specify the perception topics only topic writing actions.
   actions:    
     topic_writing_actions:
+    - actionName: move
+      topicName: /arduino/motor/command
+      topicType: std_msgs/msg/String
+      
       # Specify the topic writing actions
